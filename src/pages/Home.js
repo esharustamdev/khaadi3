@@ -2,11 +2,17 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Banner from './Banner'
 import Footer from '../components/Footer'
+import MobNav from '../components/MobNav'
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <div className='desktopNavbar'>
+        <Navbar />
+      </div>
+      <div className='mobNavbar'>
+        <MobNav />
+      </div>
       <Banner />
       <Footer />
     </div>
