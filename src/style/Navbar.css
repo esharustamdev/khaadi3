@@ -1,0 +1,34 @@
+.navLogo img {
+  width: 10vw;
+}
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.navLinks ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.navLinks ul li {
+  list-style: none;
+}
+.navLinks ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.navIcons {
+  display: flex;
+  gap: 20px;
+}
+.navIcons i {
+  font-size: 1.3vw;
+}
+.divHeader {
+  background-color: orangered;
+  text-align: center;
+  padding: 10px;
+}
