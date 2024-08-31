@@ -1,5 +1,5 @@
 .navLogo img {
-  width: 10vw;
+  width: 5vw;
 }
 .navbarContainer {
   display: flex;
@@ -31,4 +31,166 @@
   background-color: orangered;
   text-align: center;
   padding: 10px;
+}
+.dropdown {
+  position: absolute;
+  top: 15%;
+  width: 900px;
+  height: 250px;
+  left: 20%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  visibility: hidden;
+  z-index: 99;
+}
+.dropdown li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dropdown > li img {
+  width: 200px;
+}
+.navLinks ul li:hover > .dropdown {
+  visibility: visible;
+}
+.dropdown1 {
+  position: absolute;
+  top: 15%;
+  width: 500px;
+  height: 250px;
+  left: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  visibility: hidden;
+  z-index: 99;
+}
+.dropdown1 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dropdown1 > li img {
+  width: 200px;
+}
+.navLinks ul li:hover > .dropdown1 {
+  visibility: visible;
+}
+.dropdown2 {
+  position: absolute;
+  top: 15%;
+  width: 800px;
+  height: 250px;
+  left: 20%;
+  background-color: white;
+  padding: 10px;
+  visibility: hidden;
+  z-index: 99;
+}
+.dropdown2 .list2 {
+  display: flex;
+  gap: 150px;
+}
+
+.dropdown2 > li img {
+  width: 250px;
+}
+.navLinks ul li:hover > .dropdown2 {
+  visibility: visible;
+}
+.dropdown3 {
+  position: absolute;
+  top: 15%;
+  width: 800px;
+  height: 300px;
+  left: 20%;
+  background-color: white;
+  padding: 10px;
+  visibility: hidden;
+  z-index: 99;
+  display: flex;
+  gap: 300px;
+}
+.dropdown3 .list {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.dropdown3 > li img {
+  width: 300px;
+}
+.navLinks ul li:hover > .dropdown3 {
+  visibility: visible;
+}
+.dropdown4 {
+  position: absolute;
+  top: 15%;
+  width: 80%;
+  height: 500px;
+  left: 10%;
+  background-color: white;
+  padding: 20px;
+  visibility: hidden;
+  z-index: 99;
+}
+.dropdown4 .list4 {
+  display: flex;
+  gap: 100px;
+}
+.list4 li {
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+}
+.dropdown4 > li img {
+  width: 450px;
+}
+.navLinks ul li:hover > .dropdown4 {
+  visibility: visible;
+}
+.dropdown5 {
+  position: absolute;
+  top: 15%;
+  width: 80%;
+  height: 550px;
+  left: 10%;
+  background-color: white;
+  padding: 20px;
+  visibility: hidden;
+  z-index: 99;
+}
+.dropdown5 .list5 {
+  display: flex;
+  gap: 80px;
+}
+.list5 li {
+  display: flex;
+  gap: 30px;
+
+  flex-direction: column;
+}
+.dropdown5 > li img {
+  width: 450px;
+}
+.navLinks ul li:hover > .dropdown5 {
+  visibility: visible;
+}
+@media (max-width: 1100px) {
+  .navLinks ul li a {
+    font-size: 1.3vw;
+  }
+}
+@media (max-width: 900px) {
+  .divHeader {
+    display: none;
+  }
 }
