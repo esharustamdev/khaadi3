@@ -1,0 +1,116 @@
+.singlepHead {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+.singlephead1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.singlephead1 p {
+  font-size: 0.8vw;
+  color: rgb(159, 148, 148);
+}
+.singlephead1 i {
+  font-size: 0.8vw;
+}
+.singleContainer {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+.singleLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 10px 30px 30px;
+}
+.singleLeftimg img {
+  width: 150px;
+}
+.singleCenterimg img {
+  width: 700px;
+}
+.singleRHeading h3 {
+  padding: 5px;
+}
+.singleRHeading p {
+  padding: 5px;
+}
+.singleRHeading p {
+  font-size: 0.8vw;
+}
+.singleRButton {
+  padding-top: 30px;
+}
+.singleRbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px 0px 40px 0px; */
+  /* border-radius: 10px; */
+
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  width: 120px;
+  padding: 1px;
+}
+.singleRbtnbtn {
+  padding: 30px 0px 30px 0px;
+}
+.singleRbtn button {
+  width: 60px;
+  height: 30px;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 1vw;
+
+  /* border-radius: 10px; */
+}
+.singleRbtn div {
+  border: 1px solid gainsboro;
+  /* border-radius: 10px; */
+  width: 60px;
+  height: 30px;
+  padding-left: 15px;
+}
+.singleRsizeDiv1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.singleRsizebtn {
+  display: flex;
+  padding-top: 30px;
+  gap: 10px;
+}
+.singleRsizebtn button {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+.singleRmainButton {
+  padding-top: 40px;
+}
+.singleRmainButton button {
+  width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1vw;
+}
+.singleRDetails {
+  padding-top: 30px;
+}
+.singleRDetails h3 {
+  font-size: 1vw;
+}
+.singleRdrtailsDiv1 {
+  display: flex;
+  padding-top: 10px;
+}

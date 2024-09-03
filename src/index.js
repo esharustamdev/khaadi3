@@ -5,6 +5,8 @@ import App from './App'
 import './style/Navbar.css'
 import './style/Footer.css'
 import './style/Banner.css'
+import './style/Singlep.css'
+import './style/Productui.css'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

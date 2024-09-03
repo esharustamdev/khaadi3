@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import Banner from './Banner'
 import Footer from '../components/Footer'
 import MobNav from '../components/MobNav'
+import SingleP from './SingleP'
+import ProductUi from './ProductUi'
 
 const Home = () => {
   return (
@@ -13,8 +15,10 @@ const Home = () => {
       <div className='mobNavbar'>
         <MobNav />
       </div>
-      <Banner />
-      <Footer />
+      <ProductUi />
+      {/* <SingleP /> */}
+      {/* <Banner /> */}
+      {/* <Footer /> */}
     </div>
   )
 }

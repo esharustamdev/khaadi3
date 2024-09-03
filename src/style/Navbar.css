@@ -198,11 +198,14 @@
   display: none;
 }
 @media (max-width: 768px) {
-  .mob-navbar {
+  .navbarContainer {
     display: none;
   }
+  .mob-navbar {
+    display: block;
+  }
   .desktopNavbar {
-    display: none;
+    display: block;
   }
   .mobNavbar {
     display: block;
@@ -218,7 +221,7 @@
     position: fixed;
     bottom: 0%;
     /* left: 10%; */
-    background: gainsboro;
+    background: white;
     width: 100%;
     padding: 20px;
     height: 60px;
@@ -239,6 +242,7 @@
     height: 800px;
     background: white;
     border-radius: 20px;
+    display: none;
   }
   .mobdrop-down li {
     padding: 20px;
@@ -254,11 +258,14 @@
   }
 }
 @media (max-width: 500px) {
-  .mob-navbar {
+  .navbarContainer {
     display: none;
   }
+  .mob-navbar {
+    display: block;
+  }
   .desktopNavbar {
-    display: none;
+    display: block;
   }
   .mobNavbar {
     display: block;
@@ -270,6 +277,9 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .mobdrop-down {
+    display: none;
+  }
   .mob-navbar {
     position: fixed;
     bottom: 0%;
@@ -278,7 +288,7 @@
     width: 100%;
     padding: 20px;
     height: 60px;
-    transform: translateX(-0%);
+    /* transform: translateX(-0%); */
   }
   .mob-icons {
     display: flex;
