@@ -5,8 +5,18 @@ const ProductUi = () => {
     <>
       <div className='productuiHead'>
         <p>Home</p>
-        <h3>New In</h3>
         <i class='fa-solid fa-arrow-right'></i>
+        <h3>New In</h3>
+      </div>
+      <div className='productuiHeadLogos'>
+        <div className='productuiHeadLogo1'>
+          <div className='productuiheadlogo1img'>
+            <img src='' alt='' />
+          </div>
+          <div className='productuiPara'>
+            <p>A Day in Lahore with Hira Asim</p>
+          </div>
+        </div>
       </div>
     </>
   )

@@ -1,4 +1,15 @@
 .productuiHead {
   display: flex;
   align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.productuiHead p {
+  font-size: 0.9vw;
+}
+.productuiHead h3 {
+  font-size: 0.9vw;
+}
+.productuiHead i {
+  font-size: 0.9vw;
 }

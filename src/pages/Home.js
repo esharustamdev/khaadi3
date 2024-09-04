@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import MobNav from '../components/MobNav'
 import SingleP from './SingleP'
 import ProductUi from './ProductUi'
+import Shipping from './Shipping'
 
 const Home = () => {
   return (
@@ -15,10 +16,11 @@ const Home = () => {
       <div className='mobNavbar'>
         <MobNav />
       </div>
-      <ProductUi />
+      {/* <ProductUi /> */}
       {/* <SingleP /> */}
-      {/* <Banner /> */}
-      {/* <Footer /> */}
+      <Banner />
+      <Shipping />
+      <Footer />
     </div>
   )
 }
