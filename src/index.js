@@ -8,6 +8,7 @@ import './style/Banner.css'
 import './style/Singlep.css'
 import './style/Productui.css'
 import './style/shipping.css'
+import './style/Mob.css'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

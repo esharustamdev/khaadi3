@@ -1,0 +1,308 @@
+@media (max-width: 768px) {
+  .mob-navbar {
+    display: block;
+  }
+  .desktopNavbar {
+    display: block;
+  }
+  .mobNavbar {
+    display: block;
+    position: absolute;
+  }
+  .mob-logo {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mob-navbar {
+    position: fixed;
+    bottom: 0%;
+    /* left: 10%; */
+    background: white;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    transform: translateX(-0%);
+  }
+  .mob-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mob-icons i {
+    font-size: 3vw;
+  }
+  .mobdrop-down {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: white;
+    box-shadow: 0px 0px 0px 0.1px black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    bottom: 100%;
+    display: none;
+    border-bottom: 1px solid black;
+
+    transition: all 0.3s;
+    overflow-y: auto;
+  }
+  .mobdrop-down.active {
+    display: block;
+  }
+
+  .mobdrop-down li {
+    padding: 10px;
+  }
+  .rightarrow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .rightarrow a {
+    text-decoration: none;
+    color: #000;
+  }
+  .menuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  .menuIcon i {
+    font-size: 20px;
+  }
+  .saleMenuList {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 700px;
+    background: white;
+    display: none;
+  }
+  .saleMenuList.active {
+    display: block;
+  }
+  .saleMenuList li {
+    list-style: none;
+    padding: 5px;
+  }
+  .saleMenuListLinks {
+    padding-left: 20px;
+  }
+  .saleMenuListHeading {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+  }
+  .saleMenuListHeading h3 {
+    text-transform: uppercase;
+    font-size: 3vw;
+  }
+  .MenuNewInMain {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 700px;
+    background: white;
+    display: none;
+  }
+  .MenuNewInMain.active {
+    display: block;
+  }
+  .saleMenuNewInHeading {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+  }
+  .saleMenuNewInHeading h3 {
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+  .MenuFabricsMain {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 700px;
+    background: white;
+    display: none;
+  }
+  .MenuFabricsMain.active {
+    display: block;
+  }
+  .MenuFabricsHeading {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+  }
+  .MenuFabricsHeading he {
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+  .MenuFabricsList {
+    padding: 20px;
+  }
+  .MenuFabricsList li {
+    list-style: none;
+    padding: 5px;
+  }
+  .MenuFabricsList h2 {
+    font-size: 3vw;
+  }
+  .readyToWearMain {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background: white;
+    display: none;
+  }
+  .readyToWearMain.active {
+    display: block;
+  }
+  .readyToWearHeading {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  .readyToWearHeading h3 {
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+  .readyToWearList {
+    padding: 20px;
+  }
+  .readyToWearList li {
+    list-style: none;
+    padding: 5px;
+  }
+  .fragrancesMain {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: none;
+  }
+  .fragrancesMain.active {
+    display: block;
+  }
+  .fragrancesMainHeading {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  .fragrancesMainHeading h3 {
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+  .homeMain {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: none;
+  }
+  .homeMain.active {
+    display: block;
+  }
+  .homeMainHeading {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  .homeMainHeading h3 {
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+  .homeMainList {
+    padding: 20px;
+  }
+  .homeMainList li {
+    list-style: none;
+    padding: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .mob-navbar {
+    display: block;
+  }
+  .desktopNavbar {
+    display: block;
+  }
+  .mobNavbar {
+    display: block;
+    position: absolute;
+  }
+  .mob-logo {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mob-navbar {
+    position: fixed;
+    bottom: 0%;
+    /* left: 10%; */
+    background: gainsboro;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    /* transform: translateX(-0%); */
+  }
+  .mob-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mob-icons i {
+    font-size: 4vw;
+  }
+  .mobdrop-down {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: white;
+    border-radius: 30px;
+  }
+  .mobdrop-down li {
+    padding: 20px;
+  }
+  .rightarrow {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+  }
+  .rightarrow a {
+    text-decoration: none;
+    color: #000;
+  }
+  .menuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuIcon i {
+    font-size: 30px;
+  }
+  .saleMenuList {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 500px;
+    background: white;
+    display: none;
+  }
+}
