@@ -37,6 +37,7 @@ const MobNav = () => {
           alt=''
         />
       </div>
+      <hr />
       <div className='mob-navbar'>
         <div className='mob-icons'>
           <i class='fa-solid fa-bars' onClick={mobMenuFunc}></i>

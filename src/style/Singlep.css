@@ -114,3 +114,76 @@
   display: flex;
   padding-top: 10px;
 }
+.mobSingle {
+  display: none;
+}
+@media (max-width: 1350px) {
+  .singleContainer {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+  }
+  .singleLeftimg img {
+    width: 100px;
+  }
+  .singleCenterimg img {
+    width: 500px;
+  }
+}
+@media (max-width: 1200px) {
+  .singleRDetails h3 {
+    font-size: 1.5vw;
+  }
+  .singleLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
+}
+@media (max-width: 1050px) {
+  .singleRHeading h1 {
+    font-size: 2vw;
+  }
+  .singleRmainButton button {
+    width: 300px;
+  }
+  .singleRdrtailsDiv1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .singleLeftimg img {
+    width: 100px;
+  }
+  .singleCenterimg img {
+    width: 400px;
+    height: 800px;
+  }
+  .singlephead1 p {
+    font-size: 1.5vw;
+  }
+  .singlephead1 i {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 850px) {
+  .singlephead1 p {
+    font-size: 2vw;
+  }
+  .singlephead1 i {
+    font-size: 2vw;
+  }
+  .singleContainer {
+    padding: 20px;
+  }
+  .singleRmainButton button {
+    width: 230px;
+  }
+  .singleCenterimg img {
+    width: 380px;
+    height: 800px;
+  }
+  .singleLeftimg img {
+    width: 90px;
+  }
+}

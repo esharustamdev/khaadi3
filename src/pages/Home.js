@@ -6,6 +6,7 @@ import MobNav from '../components/MobNav'
 import SingleP from './SingleP'
 import ProductUi from './ProductUi'
 import Shipping from './Shipping'
+import SingleMob from './SingleMob'
 
 const Home = () => {
   return (
@@ -17,10 +18,16 @@ const Home = () => {
         <MobNav />
       </div>
       {/* <ProductUi /> */}
-      {/* <SingleP /> */}
-      <Banner />
-      <Shipping />
-      <Footer />
+      <div className='desktopSingle'>
+        <SingleP />
+      </div>
+
+      <div className='mobSingle'>
+        <SingleMob />
+      </div>
+      {/* <Banner /> */}
+      {/* <Shipping /> */}
+      {/* <Footer /> */}
     </div>
   )
 }

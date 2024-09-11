@@ -5,11 +5,462 @@
   padding: 20px;
 }
 .productuiHead p {
-  font-size: 0.9vw;
+  font-size: 15px;
 }
 .productuiHead h3 {
-  font-size: 0.9vw;
+  font-size: 15px;
 }
 .productuiHead i {
   font-size: 0.9vw;
+}
+.productuiheadlogo1img img {
+  width: 100px;
+}
+.productuiHeadLogo2 {
+  display: none;
+}
+.productuiHeadLogo3 {
+  display: none;
+}
+
+.productuiHeadLogos {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.productuiPara p {
+  font-size: 0.9vw;
+  text-align: center;
+}
+.productUiCenterAreaLeft {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.productUiCenterAreaLeftDiv1 {
+  position: relative;
+}
+.productUiLeftDiv1Icons {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
+.productUiLeftDiv1Input input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  padding-left: 20px;
+}
+.productUiCenterAreaLeftDiv2 {
+  position: relative;
+}
+.productUiLeftDiv2List {
+  position: absolute;
+  z-index: 99;
+  width: 300px;
+  background-color: white;
+}
+
+.productUiLeftDiv2Icons {
+  position: absolute;
+  top: 0;
+
+  right: 5%;
+}
+.productUiCenterAreaLeftDiv2 {
+  /* position: relative; */
+}
+.productUiLeftDiv2Input input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  padding-left: 20px;
+}
+.productUiCenterAreaLeftDiv1 {
+  /* overflow-y: auto; */
+  /* height: 100px; */
+  /* z-index: 99; */
+}
+.productUiCenterAreaLeftDiv2 {
+  /* position: absolute; */
+}
+.productUiLeftDropDown {
+  position: absolute;
+  background-color: white;
+  padding-top: 20px;
+  display: none;
+  height: 600px;
+
+  z-index: 99;
+  width: 300px;
+  box-shadow: 2px 0px 2px 2px gainsboro;
+}
+.productUiLeftDropDownDiv1body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.productUiLeftDropDown.active {
+  display: block;
+}
+.productUiLeftDropdownDiv1list {
+  display: none;
+  padding-left: 20px;
+  overflow-y: auto;
+}
+.productUiLeftDropdownDiv1list.active {
+  display: block;
+}
+.productUiLeftDropdownDiv1list li {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.productUiLeftDropDownDiv1 p {
+  font-size: 1vw;
+  color: rgb(123, 110, 110);
+}
+.productUiLeftDropDownDiv1 i {
+  font-size: 1vw;
+  color: rgb(123, 110, 110);
+}
+.productUiLeftDiv2Dropdown {
+  width: 300px;
+  padding-top: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px gainsboro;
+  display: none;
+}
+.productUiLeftDiv2Dropdown.active {
+  display: block;
+}
+
+.productUiLeftDiv2List li:hover {
+  background-color: gainsboro;
+  width: 300px;
+  height: 40px;
+}
+.productUiLeftDiv2List li {
+  color: black;
+  list-style: none;
+  padding: 5px;
+}
+.productUiLeftDropdownList {
+  display: flex;
+}
+.productUiSectionImg {
+  position: relative;
+}
+.productUiSectionImg img {
+  width: 350px;
+}
+.productUiSectionImg .productUiSectionImg1:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+.productUiSectionImg1 {
+  position: absolute;
+  top: 0%;
+  opacity: 0;
+}
+.productUiButton {
+  display: flex;
+  gap: 20px;
+}
+.productUiBtn1 button {
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.productUiBtn2 {
+  /* background-color: orange; */
+}
+.ProductUiSectionBody h3 {
+  font-size: 1vw;
+}
+.productUiButton {
+  padding: 10px 0px 10px 0px;
+}
+.ProductUiSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+}
+.productUiBtn2 button {
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  background-color: orange;
+}
+.productUiSectionIcon .fa-regular {
+  position: absolute;
+  top: 0%;
+  right: 20%;
+  font-size: 1.5vw;
+  width: 50px;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
+.productUiSectionIcon {
+  padding-top: 20px;
+}
+.productUiSectionIcon .fa-solid {
+  background-color: gainsboro;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 50px;
+  font-size: 1.5vw;
+  padding: 12px;
+  border-radius: 20px;
+}
+.productUiSectionImg {
+  position: relative;
+}
+@media (max-width: 1100px) {
+  .productuiheadlogo1img img {
+    width: 50px;
+  }
+  .ProductUiSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+  }
+  .productUiSectionImg img {
+    width: 200px;
+  }
+  .productUiSectionIcon .fa-solid {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 50px;
+  }
+  .productUiSectionIcon .fa-regular {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+  }
+  .productUiCenterAreaLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .productUiLeftDiv1Icons {
+    position: absolute;
+    top: 0%;
+    right: 25%;
+  }
+  .productUiLeftDiv2Icons {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+  }
+  .productUiSectionIcon .fa-regular {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+  }
+}
+@media (max-width: 1025px) {
+  .productUiLeftDiv1Icons {
+    position: absolute;
+    top: 0%;
+    right: 45%;
+  }
+  .productUiLeftDiv2Icons {
+    position: absolute;
+    top: 0%;
+    right: 45%;
+  }
+}
+@media (max-width: 769px) {
+  .productUiLeftDiv1Icons {
+    position: absolute;
+    top: 0%;
+    right: 25%;
+  }
+  .productUiLeftDiv2Icons {
+    position: absolute;
+    top: 0%;
+    right: 25%;
+  }
+  .ProductUiSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .productUiSectionImg img {
+    width: 300px;
+  }
+}
+@media (max-width: 650px) {
+  .productUiSectionImg img {
+    width: 250px;
+  }
+  .productUiLeftDiv1Input input {
+    width: 200px;
+  }
+  .productUiLeftDiv2Input input {
+    width: 200px;
+  }
+  .productUiLeftDiv1Icons {
+    position: absolute;
+    top: 0%;
+    right: 35%;
+  }
+  .productUiLeftDiv2Icons {
+    position: absolute;
+    top: 0%;
+    right: 35%;
+  }
+  .productUiSectionIcon .fa-regular {
+    position: absolute;
+    width: 50px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .productUiSectionIcon .fa-solid {
+    position: absolute;
+    width: 50px;
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 505px) {
+  .productUiSectionIcon .fa-regular {
+    position: absolute;
+    width: 40px;
+    padding: 13px;
+    font-size: 3vw;
+    right: 30%;
+  }
+  .productUiSectionIcon .fa-solid {
+    position: absolute;
+    width: 20px;
+    padding: 10px;
+    font-size: 0.8vw;
+    /* font-size: 20px; */
+  }
+  .productuiHeadLogos {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    gap: 10;
+  }
+  .productuiheadlogo1img img {
+    width: 50px;
+  }
+  .productuiHeadLogo2 {
+    display: none;
+  }
+  .productuiHeadLogo3 {
+    display: none;
+  }
+  .productUiSectionIcon .fa-solid {
+    position: absolute;
+    width: 45px;
+    padding: 13px;
+    font-size: 20px;
+  }
+  .productUiSectionImg img {
+    width: 100px;
+  }
+  .productUiBtn1 button {
+    width: 70px;
+    padding: 5px;
+  }
+  .productUiBtn2 button {
+    width: 70px;
+    padding: 5px;
+  }
+  .productUiLeftDiv1Input input {
+    width: 180px;
+  }
+  .productUiLeftDiv2Input input {
+    width: 180px;
+  }
+  .productUiCenterAreaLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .ProductUiSectionBody h3 {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 410px) {
+  .productUiSectionImg img {
+    width: 40vw;
+  }
+  .productuiHeadLogos {
+    display: flex;
+    gap: 5px;
+    /* flex-direction: column; */
+  }
+  .ProductUiSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .productUiLeftDiv1Input input {
+    width: 250px;
+  }
+  .productUiLeftDiv2Input input {
+    width: 250px;
+  }
+  .productUiLeftDiv1Icons {
+    position: absolute;
+    top: 0%;
+    right: 35%;
+  }
+  .productUiLeftDiv2Icons {
+    position: absolute;
+    top: 0%;
+    right: 35%;
+  }
+  .productUiCenterAreaLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  .productUiSectionIcon .fa-regular {
+    width: 35px;
+    right: 20%;
+    font-size: 3vw;
+  }
+  .productUiSectionIcon .fa-solid {
+    width: 35px;
+    right: 20%;
+    font-size: 3vw;
+  }
+  .ProductUiSectionBody h3 {
+    font-size: 3.5vw;
+  }
+  .productUiButton {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5px;
+  }
+  .productUiLeftDiv2List {
+    width: 250px;
+  }
+  .productUiLeftDropDown {
+    width: 250px;
+    height: 600px;
+  }
+  .productUiLeftDropDownDiv1body i {
+    font-size: 3.5vw;
+  }
+  .productUiLeftDropDownDiv1body p {
+    font-size: 3.5vw;
+  }
+  .productUiLeftDropdownDiv1list li p {
+    font-size: 3.5vw;
+  }
 }

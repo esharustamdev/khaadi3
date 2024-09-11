@@ -7,13 +7,15 @@
   }
   .mobNavbar {
     display: block;
-    position: absolute;
+    /* position: absolute; */
   }
   .mob-logo {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .mob-logo img {
+    width: 100px;
   }
   .mob-navbar {
     position: fixed;
@@ -232,22 +234,17 @@
     padding: 5px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 505px) {
   .mob-navbar {
     display: block;
   }
   .desktopNavbar {
     display: block;
   }
-  .mobNavbar {
-    display: block;
-    position: absolute;
-  }
+
   .mob-logo {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
   }
 
   .mob-navbar {
@@ -258,6 +255,7 @@
     width: 100%;
     padding: 20px;
     height: 60px;
+    z-index: 99;
     /* transform: translateX(-0%); */
   }
   .mob-icons {
@@ -304,5 +302,8 @@
     height: 500px;
     background: white;
     display: none;
+  }
+  .mob-logo img {
+    width: 100px;
   }
 }

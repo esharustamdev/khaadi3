@@ -1,0 +1,151 @@
+@media (max-width: 769px) {
+  .singleContainer {
+    display: none;
+    /* position: relative; */
+  }
+  .singlepHead {
+    display: none;
+  }
+  .mobSingle {
+    display: block;
+  }
+  .singleMobImg img {
+    width: 100%;
+  }
+  .singleMobBottom {
+    position: absolute;
+    top: 0%;
+    /* overflow-y: auto; */
+    background-color: white;
+    width: 100%;
+  }
+  .singleMobBottomTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .singleMobBottomTitle h2 {
+    font-size: 2vw;
+  }
+  .singleMobBottomTitle h3 {
+    font-size: 2vw;
+  }
+  .singleMobBottomSku {
+    padding: 10px;
+  }
+  .singleMobBottomSku p {
+    font-size: 2vw;
+    text-transform: uppercase;
+  }
+  .singleMobBottomQuantity {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .singleMobBottomQuantity h1 {
+    font-size: 2.5vw;
+  }
+  .singleMobBottomQuantityBtn {
+    display: flex;
+    border: 1px solid rgb(177, 166, 166);
+    border-radius: 20px;
+  }
+  .singleMobBottomQuantityBtn div {
+    padding: 10px;
+    width: 30px;
+
+    /* border-radius: 10px; */
+    /* border: 1px solid gainsboro; */
+
+    background-color: transparent;
+    font-size: 2vw;
+    font-weight: 500;
+  }
+  .singleMobBottomSize {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .singleMobBottomSizeDiv {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .singleMobBottomSizeDiv button {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+  }
+  .singleMobBottomSizeButton {
+    padding: 30px;
+  }
+  .singleMobBottomSizeButton button {
+    width: 700px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+  }
+  .singleMobBottomHead {
+    padding: 10px;
+  }
+  .singleMobBottomDetail {
+    padding: 10px;
+  }
+  .singleMobButtonDetailList {
+    display: flex;
+    flex-direction: column;
+  }
+  .singleMobButtonDetailListDiv1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .singleMobButtonDetailListDiv1 h2 {
+    font-size: 2vw;
+  }
+  .singleMobBottomSize span {
+    color: green;
+  }
+}
+@media (max-width: 740px) {
+  .singleMobBottomSizeButton button {
+    width: 500px;
+  }
+  .singleMobBottomSizeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 505px) {
+  .singleMobBottomSizeButton button {
+    width: 350px;
+  }
+  .singleMobBottomSizeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .singleMobButtonDetailListDiv1 h2 {
+    font-size: 4vw;
+  }
+  .singleMobBottomTitle h2 {
+    font-size: 4vw;
+  }
+  .singleMobBottomTitle h3 {
+    font-size: 4vw;
+  }
+  .singleMobBottomSku p {
+    font-size: 4vw;
+  }
+  .singleMobBottomQuantity h1 {
+    font-size: 4vw;
+  }
+  .singleMobBottomQuantityBtn div {
+    font-size: 5vw;
+  }
+}
